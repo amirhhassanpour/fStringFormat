@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fStringFormat"
+version = "0.0.1"
+authors = [
+  { name="Amir H", email="amirh.hassanpour@gmail.com" },
+]
+description = "A package for easily accessing ANSI escape codes to use in Jupyter Notebooks"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls] 
+"Homepage" = "https://github.com/amirhhassanpour/fStringFormat"
+"Bug Tracker" = "https://github.com/amirhhassanpour/fStringFormat/issues"
