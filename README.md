@@ -1,2 +1,2 @@
 # fStringFormat
-Useful formatting for printing fstrings
+A package for easily accessing ANSI escape codes to use in Jupyter Notebooks.
